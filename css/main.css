@@ -38,14 +38,11 @@ img {
   animation: loading 2s ease infinite;
   transition: all 0.3s ease-in;
 }
-span:first-of-type {
-  animation-delay: 1s;
-}
 span:nth-of-type(2) {
-  animation-delay: 1.25s;
+  animation-delay: 0.5s;
 }
 span:nth-of-type(3) {
-  animation-delay: 1.5s;
+  animation-delay: 0.7s;
 }
 @keyframes loading {
   0% {
@@ -53,7 +50,7 @@ span:nth-of-type(3) {
     background-color: red;
   }
   50% {
-    transform: translateY(70px);
+    transform: translateY(20px);
     background-color: greenyellow;
   }
   100% {
